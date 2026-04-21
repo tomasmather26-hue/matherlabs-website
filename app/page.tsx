@@ -103,9 +103,15 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
-                  Location
+                  Registered Address
                 </h3>
-                <p className="text-gray-700">United Kingdom</p>
+                <address className="text-gray-700 not-italic leading-relaxed">
+                  71-75 Shelton Street<br />
+                  Covent Garden<br />
+                  London<br />
+                  WC2H 9JQ<br />
+                  United Kingdom
+                </address>
               </div>
             </div>
           </div>
@@ -118,8 +124,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-500">
             <div className="space-y-1">
               <p className="font-medium text-gray-700">Mather Labs Ltd</p>
+              <p>71-75 Shelton Street, Covent Garden, London, WC2H 9JQ</p>
               <p>Registered in England and Wales</p>
-              <p>Director: Tommy Mather</p>
+              <p>Director: Thomas Mather</p>
             </div>
             <div className="space-y-1 md:text-right">
               <p>
