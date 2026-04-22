@@ -14,15 +14,6 @@ export default function Home() {
             style={{ objectFit: "contain", objectPosition: "left center" }}
             priority
           />
-          <nav>
-            <a
-              href="#contact"
-              style={{ color: "#9ca3af" }}
-              className="text-sm hover:text-white transition-colors"
-            >
-              Contact
-            </a>
-          </nav>
         </div>
       </header>
 
@@ -76,45 +67,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact */}
-        <section id="contact" style={{ borderTop: "1px solid #f3f4f6" }}>
-          <div className="max-w-5xl mx-auto px-6 py-16">
-            <h2 className="text-2xl font-semibold mb-8" style={{ color: "#111827" }}>Contact</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: "#6b7280" }}>
-                  Get in touch
-                </h3>
-                <div className="space-y-2">
-                  <p style={{ color: "#374151" }}>
-                    <span className="font-medium">Phone:</span>{" "}
-                    <a href="tel:+447756810397" className="hover:underline" style={{ color: "#111827" }}>
-                      07756 810397
-                    </a>
-                  </p>
-                  <p style={{ color: "#374151" }}>
-                    <span className="font-medium">Web:</span>{" "}
-                    <a href="https://matherlabs.co.uk" className="hover:underline" style={{ color: "#111827" }}>
-                      matherlabs.co.uk
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold uppercase tracking-wider mb-3" style={{ color: "#6b7280" }}>
-                  Registered Address
-                </h3>
-                <address className="not-italic leading-relaxed" style={{ color: "#374151" }}>
-                  71-75 Shelton Street<br />
-                  Covent Garden<br />
-                  London<br />
-                  WC2H 9JQ<br />
-                  United Kingdom
-                </address>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       {/* Footer */}
